@@ -17,9 +17,12 @@ This repository contains the code for a basic Gutenberg Block in WordPress.
 
 ## Project Structure
 List of major frameworks/tools to bootstrap your project : 
-Nodes.js (npm modules needed for project)
-A Local Server to run wordpress
-Code Editor
+
+- Nodes.js (npm modules needed for project)
+- A Local Server to run wordpress
+- Code Editor
+
+
 Basic understanding of javascript, HTML, CSS, php and wordpress
 
 ## Getting Started
