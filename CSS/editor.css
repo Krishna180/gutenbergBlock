@@ -1,0 +1,38 @@
+
+.wp-block-my-custom-block-hello-world {
+    max-width: 100%;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #faf3e0;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #0073aa; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333; 
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.wp-block-my-custom-block-hello-world:hover {
+    background-color: #0073aa; 
+    border-color: #005177; 
+    color: #fff; 
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .wp-block-my-custom-block-hello-world {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wp-block-my-custom-block-hello-world {
+        width: 60px;
+        height: 30px;
+        padding: 10px;
+    }
+}

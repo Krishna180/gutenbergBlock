@@ -1,0 +1,1 @@
+(()=>{"use strict";const l=window.React;(0,window.wp.blocks.registerBlockType)("gutenberg-block/hello-world",{title:"Hello World",icon:"smiley",category:"common",edit:()=>(0,l.createElement)("div",{class:"wp-block-my-custom-block-hello-world"},"Hello World")})})();
